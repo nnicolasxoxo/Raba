@@ -6,11 +6,10 @@ screen= pygame.display.set_mode((1500,500)) #Tamaño de la pantalla (ancho y lar
 runing=True
 velocidad = 20
 direccion = True
-posX, posY = (50,450) #posicion inicial
+negro=(0,0,0)
 while runing:
     screen.fill((250,0,0)) #Tuplas
-    pygame.draw.rect(screen,(0,250,0), 10)
+    pygame.draw.rect(screen, negro,[150,50,400,400], 0)
     
    
-    pygame.display.update()   
-    
+    pygame.display.update() 
