@@ -1,3 +1,4 @@
+#Aqui esta mi personaje principal
 import pygame
 from pygame.locals import *
 pygame.init()  #Inicializa pygame

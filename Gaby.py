@@ -1,3 +1,5 @@
+#Aqui se estara creando a la princesa gaby
+
 import pygame
 from pygame.locals import *
 pygame.init()  #Inicializa pygame
