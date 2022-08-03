@@ -1,6 +1,4 @@
 #Aqui se estan creando los siervos de juda
-
-#Aqui esta El villano principal Juda
 import pygame
 from pygame.locals import *
 pygame.init()  #Inicializa pygame

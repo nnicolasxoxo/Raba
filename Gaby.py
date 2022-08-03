@@ -1,6 +1,4 @@
 #Aqui se estara creando a la princesa gaby
-
- #Aqui esta mi personaje principal Niga
 import pygame
 from pygame.locals import *
 pygame.init()  #Inicializa pygame
