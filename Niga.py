@@ -1,4 +1,4 @@
-#Aqui esta mi personaje principal
+#Aqui esta mi personaje principal Niga
 import pygame
 from pygame.locals import *
 pygame.init()  #Inicializa pygame
@@ -9,8 +9,8 @@ velocidad = 20
 direccion = True
 posX, posY = (50,450) #posicion inicial
 while runing:
-    screen.fill((250,0,0)) #Tuplas
-    pygame.draw.circle(screen,(0,250,0),(posX,posY), 10)
+    screen.fill((0,0,0)) #Tuplas
+    pygame.draw.circle(screen,(0,150,0),(posX,posY), 20)
     
     for event in pygame.event.get():  
         if event.type==pygame.QUIT:
