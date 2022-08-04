@@ -2,17 +2,21 @@
 import pygame
 from pygame.locals import * 
 import sys
-import os
 
 pygame.init()
 pantalla= pygame.display.set_mode((1500,500))
-pygame.display.set_caption ("Raba")
+
+
+pygame.display.set_caption("Raba")
+fondo=pygame.image.load("imagenes/fondo.png").convert()
+pantalla.blit(fondo,(0,0))
+
 while True:
     for event in pygame.event.get():
         if event.type ==QUIT:
             pygame.quit()
             sys.exit()
+    pygame.display.update()
 
-fondo=pygame.image.load("imagenes/fondo.jpg")
-pantalla.blit(fondo,(0,0))
+
 
